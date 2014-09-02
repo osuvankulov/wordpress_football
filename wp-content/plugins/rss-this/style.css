@@ -1,0 +1,95 @@
+/*-- 
+RSS THIS CSS
+Bilal Hassan
+smartcatdesign.net
+--*/
+
+ul.feed-roll{
+    overflow: hidden;
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.feed-title{
+    color: #000;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 8px 0px 5px 0px;
+    border-bottom: 1px solid #d0d0d0;
+    text-transform: uppercase;
+}
+.feed-title a{
+    text-decoration: none;
+}
+
+.feed-roll li{
+    /*background: url('background.png') repeat;*/
+    margin-bottom: 10px;
+    list-style: none;
+    /*padding: 5px 10px;*/
+    overflow: hidden;
+}
+
+.rss-thumb img{
+    display:block;
+    width: 175px;
+    height: auto;
+    margin-right:8px;
+    float: left;
+    border: 1px solid #888888;
+    padding: 1px;
+}
+
+
+.small.feed-item{
+    padding: 0 !important;
+    margin-bottom: 0.5%;
+}
+
+.feed-item a:hover,.feed-item a{
+    text-decoration: none;
+}
+.feed-more{
+    text-align: right;
+}
+.button-primary{
+    text-decoration: none;
+    background: #333333;
+    color: #f0f0f0 !important;
+    padding: 7px 5px;
+    box-shadow: 0 2px 2px #666;
+    margin: 0 20px 10px 0;
+    transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+}
+.button-primary:hover{
+    background: #777777;
+    color: #ffffff !important;
+}
+/*------------------------ Archive --------------------*/
+.rss-archive .feed-title{
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 110px;
+}
+.rss-archive li{
+    float: left;
+    width: 32%;
+    margin: 0 0 20px 0 !important;
+    box-shadow: 0px 0px 3px #333;
+}
+.rss-archive .feed-content{
+    height: 160px;
+}
+.rss-archive .feed-more{
+    text-align: center;
+}
+.rss-archive .rss-mid{
+    margin-left: 1.5% !important;
+    margin-right: 1.5% !important;
+}
+.rss-archive .rss-thumb img{
+    width: 100%;
+}
